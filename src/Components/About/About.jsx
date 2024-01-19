@@ -9,7 +9,7 @@ function About() {
       </h1>
       <div className="flex flex-row max-w-6xl w-[100vw] h-[100vh] p-12">
         <div className="">
-          <img src={myImg} alt="" />
+          <img src="" alt="" />
         </div>
         <div>
           <div>
