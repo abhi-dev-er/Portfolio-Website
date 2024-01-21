@@ -7,7 +7,7 @@ function About() {
       <h1 className="flex justify-center items-center font-serif text-[2.5rem] font-semibold p-14">
         About Me
       </h1>
-      <div className="md:flex md:flex-row max-w-6xl w-[100vw] h-[60vh] p-12  md:ml-24 mt-8">
+      <div className="md:flex md:flex-row max-w-6xl w-[100vw] h-[60vh] p-12  md:ml-24 md:mt-8 mt-4">
         <div className="md:w-[50%] h-[300px]">
           <img
             className="object-cover overflow-hidden w-[100%] rounded-lg h-[300px]"
