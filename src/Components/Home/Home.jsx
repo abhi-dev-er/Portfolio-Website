@@ -2,6 +2,7 @@ import React from "react";
 import hero from "../../assets/hero.jpeg";
 import { Link } from "react-scroll";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
@@ -10,10 +11,27 @@ function Home() {
         <span className="text-[1.75rem] font-thin">
           Hello, I'm <br />
         </span>
-        <span className=" text-yellow-500 text-[1.75rem] pt-4">
+        <span className=" text-yellow-500 text-[1.75rem] pt-4 mb-6">
           Abhishek Dubey
         </span>
-        <h1 className="text-[2.5rem] mt-4">Front-End Web Developer</h1>
+        <TypeAnimation
+      sequence={[
+        
+        'Front-End Web Developer',
+        1000, 
+        'UI/UX Designer',
+        1000,
+        'React Developer',
+        1000,
+        'Web Developer',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
+
         <p className="text-[1rem] font-thin mt-4">
           Im a Skilled and Passionate front-end web Developer <br /> with
           experience in creating visually appealing and user-friendly website{" "}
