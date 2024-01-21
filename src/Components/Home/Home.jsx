@@ -6,12 +6,12 @@ import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
-    <section className="h-[90vh] w-full max-w-6xl mt-4 mb-0 overflow-hidden ml-auto mr-auto relative">
-      <div className="h-[100vh] w-[100vw] md:p-4 p-12 md:text-xl text-xs leading-8 font-semibold font-serif flex flex-col  justify-center ">
-        <span className="text-[1.75rem] font-thin">
+    <section className="h-[90vh] w-full max-w-6xl mt-1 md:mt-4 mb-0 overflow-hidden ml-auto mr-auto relative">
+      <div className="h-[100vh] w-[100vw] md:p-4 p-10 md:text-xl text-xs leading-8 font-semibold font-serif flex flex-col  justify-center ">
+        <span className=" text-[1.2rem] md:text-[1.75rem] font-thin">
           Hello, I'm <br />
         </span>
-        <span className=" text-yellow-500 text-[1.75rem] pt-4 mb-6">
+        <span className=" text-yellow-500 text-[1.25rem] md:text-[1.75rem] pt-4 mb-2 md:mb-6">
           Abhishek Dubey
         </span>
         <TypeAnimation

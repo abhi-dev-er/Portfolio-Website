@@ -7,15 +7,15 @@ function About() {
       <h1 className="flex justify-center items-center font-serif text-[2.5rem] font-semibold p-14">
         About Me
       </h1>
-      <div className="flex flex-row max-w-6xl w-[100vw] h-[60vh] p-12 ml-24 mt-8">
-        <div className="w-[50%] h-[300px]">
+      <div className="md:flex md:flex-row max-w-6xl w-[100vw] h-[60vh] p-12  md:ml-24 mt-8">
+        <div className="md:w-[50%] h-[300px]">
           <img
             className="object-cover overflow-hidden w-[100%] rounded-lg h-[300px]"
             src={myImg}
             alt=""
           />
         </div>
-        <div className="ml-24 w-[70%]">
+        <div className="md:ml-24 md:w-[70%]">
           <div className="font-serif">
             <h3 className="text-2xl font-serif font-bold">Education : -</h3>
             <p>
