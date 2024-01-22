@@ -1,4 +1,10 @@
 import React from "react";
+import proImg1 from '../../assets/project1.png'
+import proImg2 from '../../assets/project2.png'
+import proImg3 from '../../assets/project3.png'
+import proImg4 from '../../assets/project4.png'
+import proImg5 from '../../assets/project5.png'
+import proImg6 from '../../assets/project6.png'
 
 function Projects() {
   return (
@@ -11,14 +17,16 @@ function Projects() {
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
+                src={proImg1}
+                alt="project1"
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Project 1</h2>
+              <h2 className="card-title">Pokedex App</h2>
               <div className="card-actions justify-end">
-                <button className=" btn flex items-center justify-center btn-primary">GitHub</button>
+                <button className=" btn flex items-center justify-center btn-primary">
+                  <a className="no-underline" href="https://github.com/abhi-dev-er/React_pokedex_app">GitHub</a>
+                </button>
               </div>
             </div>
           </div>
@@ -27,14 +35,16 @@ function Projects() {
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
+                src={proImg2}
+                alt="project2"
               />
             </figure>
             <div className="card-body">
-            <h2 className="card-title">Project 1</h2>
+            <h2 className="card-title">LMS Front-End</h2>
               <div className="card-actions justify-end">
-                <button className=" btn flex items-center justify-center btn-primary">GitHub</button>
+                <button className=" btn flex items-center justify-center btn-primary">
+                  <a className="no-underline" href="https://github.com/abhi-dev-er/lms-project">GitHub</a>
+                </button>
               </div>
             </div>
           </div>
@@ -44,14 +54,16 @@ function Projects() {
             <figure>
               <img 
           
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
+                src={proImg3}
+                alt="project3"
               />
             </figure>
             <div className="card-body">
-            <h2 className="card-title">Project 1</h2>
+            <h2 className="card-title">Simple Website using Tailwind</h2>
               <div className="card-actions justify-end">
-                <button className=" btn flex items-center justify-center btn-primary">GitHub</button>
+                <button className=" btn flex items-center justify-center btn-primary">
+                  <a className="no-underline" href="https://github.com/abhi-dev-er/tailwind-project">GitHub</a>
+                </button>
               </div>
             </div>
           </div>
@@ -60,14 +72,16 @@ function Projects() {
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
+                src={proImg4}
+                alt="project4"
               />
             </figure>
             <div className="card-body">
-            <h2 className="card-title">Project 1</h2>
+            <h2 className="card-title">Real-Estate-website</h2>
               <div className="card-actions justify-end">
-                <button className=" btn flex items-center justify-center btn-primary">GitHub</button>
+                <button className=" btn flex items-center justify-center btn-primary">
+                  <a className="no-underline" href="https://github.com/abhi-dev-er/Real-Estate-website">GitHub</a>
+                </button>
               </div>
             </div>
           </div>
@@ -76,14 +90,16 @@ function Projects() {
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
+                src={proImg5}
+                alt="project5"
               />
             </figure>
             <div className="card-body">
-            <h2 className="card-title">Project 1</h2>
+            <h2 className="card-title">Portfolio-Website</h2>
               <div className="card-actions justify-end">
-                <button className=" btn flex items-center justify-center btn-primary">GitHub</button>
+                <button className=" btn flex items-center justify-center btn-primary">
+                  <a className="no-underline" href="https://github.com/abhi-dev-er/Portfolio-Website">GitHub</a>
+                </button>
               </div>
             </div>
           </div>
@@ -92,14 +108,16 @@ function Projects() {
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
+                src={proImg6}
+                alt="project6"
               />
             </figure>
             <div className="card-body">
-            <h2 className="card-title">Project 1</h2>
+            <h2 className="card-title">Multipage-Website</h2>
               <div className="card-actions justify-end">
-                <button className=" btn flex items-center justify-center btn-primary">GitHub</button>
+                <button className=" btn flex items-center justify-center btn-primary">
+                  <a className="no-underline" href="https://github.com/abhi-dev-er/project--multipage-website">GitHub</a>
+                </button>
               </div>
             </div>
           </div>
