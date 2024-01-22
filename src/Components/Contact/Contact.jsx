@@ -2,9 +2,9 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
-      <div class="container my-24 mx-auto md:px-6">
-        <section class="mb-32 text-center">
+    <div className="w-full h-[100vh] md:mt-12 ">
+      <div class="container  md:my-24 mx-auto md:px-6">
+        <section class=" mt-[96rem] md:mt-80 text-center">
           <div class="py-12 md:px-12">
             <div class="container mx-auto xl:px-32">
               <div class="grid items-center lg:grid-cols-2">
@@ -83,6 +83,7 @@ function Contact() {
                 <div class="md:mb-12 lg:mb-0">
                   <div class="relative h-[700px] rounded-lg shadow-lg dark:shadow-black/20">
                     <iframe
+                    title="no"
                       src="https://maps.google.com/maps?q=satna&t=&z=13&ie=UTF8&iwloc=&output=embed"
                       class="absolute left-0 top-0 h-full w-full rounded-lg"
                       frameborder="0"

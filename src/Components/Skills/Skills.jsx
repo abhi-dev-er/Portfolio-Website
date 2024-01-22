@@ -9,7 +9,7 @@ import { SiRedux } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className="w-full h-[100vh] md:mt-0 mt-72">
+    <div className="w-full h-[60vh] md:mt-0 mt-72">
       <h1 className="flex items-center justify-center font-serif font-semibold text-3xl">
         Skills & Experience
       </h1>
